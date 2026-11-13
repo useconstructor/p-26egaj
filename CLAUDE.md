@@ -32,6 +32,7 @@ This repo lives at: `github.com/useconstructor/<project-slug>` (one repo per bui
 | Charts | Recharts |
 | Toasts | Sonner |
 | Design QA | Impeccable (`/impeccable` commands — see AGENTS.md) |
+| Agent skills | `.agents/skills/` — `imageless-premium-visuals` (builds without photographs), `find-skills` |
 
 ## Commands
 
@@ -75,6 +76,7 @@ DATABASE_AUTH_TOKEN=    # Turso auth token
 - **Next.js 16** — `LayoutProps<T>` only works for routes in `.next/types/routes.d.ts`; use `{ children: React.ReactNode }` for custom layouts. Read `node_modules/next/dist/docs/` before writing routing code.
 - **Turso DB** — client is in `src/lib/db.ts`. Use `@libsql/client`. Schema via raw SQL (`db.execute`).
 - **tmp-tests/** — all temp files (screenshots, outputs) go here. Already in `.gitignore`.
+- **Imageless builds** — when `.build-instructions.md` says "IMAGELESS VISUAL MODE", there are no photographs. Follow `.agents/skills/imageless-premium-visuals/SKILL.md`, and never make data or features wait on image files.
 - **Impeccable** — run `/impeccable polish` after generating a page. Run `npx impeccable detect src/` before deploying. See AGENTS.md for the full command reference.
 
 ## Gotchas
