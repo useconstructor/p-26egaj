@@ -142,8 +142,10 @@ Read .build-instructions.md FIRST to understand the archetype, layout style, and
 
 ## ⚠ RULE #1: NO BROKEN IMAGES
 
-The ONLY image files that exist are listed in the `.build-instructions.md` under "AI-GENERATED IMAGES".
-**Never** use `<Image src="/images/anything-not-in-the-list" />`.
+There are two flows. Check `.build-instructions.md` before you design:
+
+- **With images:** the only image files that exist are the ones listed in `.build-instructions.md` (its image contract). **Never** use `<Image src="/images/anything-not-in-the-list" />`.
+- **Imageless:** if `.build-instructions.md` contains "IMAGELESS VISUAL MODE", there are no photographs and none will arrive. Read `.agents/skills/imageless-premium-visuals/SKILL.md` and build every visual from code (type, colour, SVG illustration, texture, motion). In this flow, the image-specific rules below (hero.png, product-N.png, the image checklist items) do not apply. Data and features must never depend on image files.
 
 For things without a provided image:
 - **Team/people photos**: `<div className="w-20 h-20 rounded-full bg-amber-100 flex items-center justify-center text-amber-800 font-bold text-xl">AB</div>`
@@ -160,7 +162,7 @@ For things without a provided image:
 1. **Zero placeholders** — No Lorem ipsum, no "Service 1 / Service 2", no "Coming Soon"
 2. **Real business content** — Invent plausible names, prices, phone numbers, addresses, team names
 3. **Intent-specific layout** — Each archetype has its own visual DNA (see below). Never reuse a generic 3-column card layout for everything.
-4. **AI images** — Use ONLY the image files listed in the instructions. They MUST appear above the fold.
+4. **AI images** — Use ONLY the image files listed in the instructions; when images exist, they MUST appear above the fold. In imageless builds, an authored SVG/typographic visual takes that place.
 5. **Color discipline** — Apply the color palette from the instructions. Define CSS vars in globals.css and use them throughout.
 6. **Typography hierarchy** — Every page needs: display heading (H1), section headings (H2), body text, captions.
 
@@ -286,9 +288,9 @@ Add `'use client'` only when the component uses: `useState`, `useEffect`, `useRe
 
 ## Quality Checklist
 
-- [ ] Every `<Image src="...">` references a file from the "AI-GENERATED IMAGES" list
+- [ ] Every `<Image src="...">` references a file that exists in `public/` (the listed images)
 - [ ] No `<Image src="/images/team-*.jpg">` or other non-existent paths
-- [ ] /images/hero.png visible above the fold
+- [ ] With images: the planned hero image is visible above the fold. Imageless: the authored hero (type + SVG) reads as finished at 375px and 1440px
 - [ ] No Lorem ipsum anywhere
 - [ ] Team sections use CSS avatars with initials, not image tags
 - [ ] Every `'use client'` directive has quotes (bare `use client` → build error)
