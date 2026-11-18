@@ -1,0 +1,17 @@
+{
+  "name": "Masa Dulce",
+  "short_name": "Masa Dulce",
+  "lang": "es",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF9FD",
+  "theme_color": "#492044",
+  "icons": [
+    {
+      "src": "/brand-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

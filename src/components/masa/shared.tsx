@@ -1,0 +1,14 @@
+'use client';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
+import { AlertCircle, ArrowRight, RefreshCw } from 'lucide-react';
+import { api, bookingStarted, Catalog, Line, money } from '@/lib/client/masa-api';
+import { ProductArt } from './product-art';
+// Synchronizes explicit retries with the public catalogue request.
+// eslint-disable-next-line react-hooks/set-state-in-effect
+export function useCatalog(){const [catalog,setCatalog]=useState<Catalog|null>(null);const [error,setError]=useState('');const [revision,setRevision]=useState(0);useEffect(()=>{const abort=new AbortController();setError('');api<Catalog>('/api/catalogo',{signal:abort.signal}).then(setCatalog).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[revision]);return {catalog,error,retry:()=>setRevision(n=>n+1)};}
+export function Feedback({ children, onRetry, title = 'No pudimos completar este paso' }: {children: React.ReactNode; onRetry?:()=>void; title?: string}){return <div role="alert" className="feedback"><AlertCircle size={22}/><div><strong>{title}</strong><div>{children}</div>{onRetry&&<button type="button" className="text-button" onClick={onRetry}><RefreshCw size={17}/> Reintentar</button>}</div></div>;}
+export function Loading({ children = 'Consultando la disponibilidad…' }: { children?: React.ReactNode }){return <div role="status" className="loading-state"><span className="loading-waves" aria-hidden="true">≈</span><p>{children}</p></div>;}
+export function OrderLink({id,quantity=1,children='Encargar'}:{id:string;quantity?:number;children?:React.ReactNode}){return <Link className="button button-light" href={`/pedido?producto=${encodeURIComponent(id)}&cantidad=${quantity}`} onClick={bookingStarted}>{children}<ArrowRight size={19}/></Link>;}
+export function Composition({lines,compact=false}:{lines:Pick<Line,'productId'|'name'|'presentationVersion'>[];compact?:boolean}){return <div className={`composition ${compact?'composition-compact':''} ${lines.length>1?'composition-multiple':''}`} data-composition-count={lines.length}>{lines.length?lines.map(line=><ProductArt key={line.productId} id={line.productId} name={line.name} version={line.presentationVersion}/>):<div className="empty-scene"><span aria-hidden="true">≈</span><p>Tu selección empieza aquí</p></div>}</div>;}
+export function FrozenLines({lines,total}:{lines:Line[];total:number}){return <><div className="frozen-lines">{lines.map(line=><div className="frozen-line" key={line.productId}><div><strong>{line.name}</strong><p>{line.presentation}</p><p>{line.quantity} × {money(line.unitPrice)}</p></div><strong>{money(line.subtotal)}</strong></div>)}</div><div className="total-line"><span>Total de ejemplo</span><strong>{money(total)} <small>COP</small></strong></div></>;}
