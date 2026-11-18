@@ -1,59 +1,871 @@
 {
-  "primaryColor": "#492044",
-  "secondaryColor": "#D9E4B5",
-  "backgroundColor": "#FFF9FD",
-  "textColor": "#352724",
-  "accentColor": "#492044",
-  "fontHeading": "Bricolage Grotesque",
-  "fontBody": "Source Sans 3",
-  "borderRadius": "0.5rem",
-  "logoText": "Masa Dulce",
-  "logoImageUrl": null,
   "tone": "trustworthy",
+  "fontBody": "Source Sans 3",
+  "logoText": "Masa Dulce",
   "brandbook": {
-    "version": 1,
-    "origin": "proposed",
-    "researchStatus": "not_requested",
-    "tokenSemanticsVersion": 1,
-    "positioning": "Identidad original propuesta para una pastelería ficticia en Cali: tortas para compartir y postres para recoger, con elección clara, precios de ejemplo y registro verificable de encargos de demostración. No representa una identidad comercial oficial ni un establecimiento documentado.",
-    "voice": "Cálida, directa y colombiana. Usar “Encargar”, “Hacer pedido”, “Recoger” y explicaciones cortas, sin exageraciones ni garantías inventadas. Un aviso de demostración por página; aclaraciones operativas solo donde ayudan a decidir o recuperar una acción.",
     "motif": "Vitrina frontal con dos laterales unidos a un margen inferior sólido, bandejas completas y ondas de crema. El margen es el borde de trabajo que une producto, especificación y acción. Dibujos SVG planos diferencian los cuatro productos, sin simular fotografías ni sugerir cantidades por su representación.",
+    "pages": [
+      {
+        "id": "brand-page-1",
+        "title": "Brand guidelines",
+        "layout": "cover",
+        "summary": "Identidad original propuesta para una pastelería ficticia en Cali: tortas para compartir y postres para recoger, con elección clara, precios de ejemplo y registro verificable de encargos de demostración.",
+        "examples": [
+          {
+            "text": "Tortas para compartir. Postres para recoger.",
+            "title": "Masa Dulce"
+          },
+          {
+            "text": "Keep the name dominant, the two-wave symbol secondary and the guide label small. Do not introduce a product illustration on the cover.",
+            "title": "Cover composition"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-2",
+        "title": "The Brand",
+        "layout": "divider",
+        "summary": "Use a Mora chapter divider with a short statement in Merengue. Introduce the frontal display as the organizing idea, not as a picture of actual premises.",
+        "examples": [
+          {
+            "text": "Masa Dulce brings product, specification and action together along one clear working edge.",
+            "title": "Elegir. Encargar. Recoger."
+          }
+        ]
+      },
+      {
+        "id": "brand-page-3",
+        "title": "Welcome",
+        "layout": "content",
+        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
+        "examples": [
+          {
+            "text": "Demostración ficticia: productos, precios, disponibilidad e imágenes ilustrativos",
+            "title": "One notice per web page"
+          },
+          {
+            "text": "The name, example catalog, pickup policy, palette and typefaces come from the project brief. Do not add an address, reviews, contacts or operational guarantees.",
+            "title": "Scope"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-4",
+        "title": "Index",
+        "layout": "content",
+        "summary": "Read from identity to application. Preserve this sequence so composition and editorial decisions are established before interface or print studies.",
+        "examples": [
+          {
+            "text": "Cover, brand foundations, voice, logo, typography and layouts.",
+            "title": "01–22 · Identity and typography"
+          },
+          {
+            "text": "Colors, graphic elements, illustration direction, application studies and closing credits.",
+            "title": "23–49 · Expression and applications"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-5",
+        "title": "Defining",
+        "layout": "content",
+        "summary": "Build recognition through a frontal display: Merengue interior, Mora sides and a connected lower edge. Keep the title outside the scene and product information below the trays.",
+        "examples": [
+          {
+            "text": "Torta de chocolate · Entera, 8 porciones orientativas · $68.000 · Encargar",
+            "title": "A single working edge"
+          },
+          {
+            "text": "Use the frontal display, not a recipe notebook or celebration table. Avoid split heroes, interchangeable card grids and cream/serif/terracotta styling.",
+            "title": "Chosen direction"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-6",
+        "title": "Vision & Mission",
+        "layout": "content",
+        "summary": "Express project intent rather than an invented corporate mission. Lead with clear selection and explain pickup without claims about quality, heritage or guaranteed service.",
+        "examples": [
+          {
+            "text": "Explora las presentaciones, consulta la disponibilidad y elige qué recoger.",
+            "title": "Tortas para compartir"
+          },
+          {
+            "text": "Revisa los productos y la recogida antes de registrar tu pedido de demostración.",
+            "title": "Un encargo claro"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-7",
+        "title": "Brand Values",
+        "layout": "content",
+        "summary": "Use clarity, care and honesty as design criteria for this project, not claimed company values. Give availability, quantities and uncertain outcomes explicit language.",
+        "examples": [
+          {
+            "text": "“Individual” describes the cheesecake. “Entera, 8 porciones orientativas” describes each whole cake; the illustration never defines quantity.",
+            "title": "Clarity"
+          },
+          {
+            "text": "Use “No pudimos confirmar el resultado” when registration is uncertain, never “Pedido registrado” before an authorized server response.",
+            "title": "Honesty"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-8",
+        "title": "Tone of Voice",
+        "layout": "content",
+        "summary": "Write warm, direct Colombian Spanish. Use short sentences, familiar action verbs and specific next steps. Avoid exaggerated sweetness, pressure, invented guarantees and technical jargon.",
+        "examples": [
+          {
+            "text": "Encargar · Hacer pedido · Recoger · Revisar pedido · Registrar pedido",
+            "title": "Preferred vocabulary"
+          },
+          {
+            "text": "Esta franja está completa. Elige otra hora o consulta otro día.",
+            "title": "Helpful correction"
+          },
+          {
+            "text": "Replace “¡El mejor postre de Cali, garantizado!” with “Consulta las tortas y los postres disponibles”.",
+            "title": "Avoid"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-9",
+        "title": "Logo",
+        "layout": "divider",
+        "summary": "Open the logo chapter on Mora with Merengue type. Present the name and two cream waves as complementary elements; never turn the symbol into a letter or a cake illustration.",
+        "examples": [
+          {
+            "text": "A wide typographic name, paired with two parallel cream waves.",
+            "title": "Masa Dulce"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-10",
+        "title": "Logo overview",
+        "layout": "logo",
+        "summary": "The identity combines live Bricolage Grotesque 700 lettering with the original two-wave SVG. Use a Pistacho study background and a Merengue support surface behind the complete symbol.",
+        "examples": [
+          {
+            "text": "Place the waves to the left of “Masa Dulce”. Align the symbol optically with the name rather than the bottom of its SVG canvas.",
+            "title": "Full signature"
+          },
+          {
+            "text": "Use the waves alone for the application icon. Keep “Masa Dulce” as the adjacent visible name or accessible label.",
+            "title": "Compact signature"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-11",
+        "title": "Primary logo",
+        "layout": "logo",
+        "summary": "Render Masa Dulce in mixed case, Bricolage Grotesque 700, with compact spacing and no distortion. Set the primary signature in Mora on Merengue.",
+        "examples": [
+          {
+            "text": "Use a 32 px symbol canvas beside a 24 px Masa Dulce wordmark, separated by 8 px. Let navigation wrap or reflow rather than compress the name.",
+            "title": "Header lockup"
+          },
+          {
+            "text": "Use Merengue lettering on Cacao. Keep the original Mora symbol unchanged on its Merengue support surface.",
+            "title": "Dark application"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-12",
+        "title": "Logo Safezone",
+        "layout": "logo",
+        "summary": "Reserve clear space equal to one quarter of the symbol canvas on every side of the lockup. Keep illustration trays, borders and control labels outside this space.",
+        "examples": [
+          {
+            "text": "A 32 px symbol canvas establishes an 8 px outer safezone. Measure from the complete lockup, including the name.",
+            "title": "Header spacing"
+          },
+          {
+            "text": "A 16 mm symbol canvas establishes a 4 mm safezone. Do not let a packaging fold or seal edge enter it.",
+            "title": "Print spacing"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-13",
+        "title": "Color combinations",
+        "layout": "colors",
+        "summary": "Prefer Mora on Merengue for the full identity. On Pistacho or dark fields, retain the symbol geometry and Mora fill on a Merengue support surface; do not recolor individual waves.",
+        "examples": [
+          {
+            "text": "Merengue #FFF9FD background, Mora #492044 name and symbol, Cacao #352724 supporting copy.",
+            "title": "Light combination"
+          },
+          {
+            "text": "Cacao #352724 field, Merengue #FFF9FD name, original Mora symbol on Merengue. Keep Guayaba away from small lettering.",
+            "title": "Dark combination"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-14",
+        "title": "Brandmark",
+        "layout": "logo",
+        "summary": "Use the supplied original SVG as one indivisible symbol: two parallel rounded cream waves in a 160 × 160 viewBox. Share the exact geometry across the header, favicon and application icon.",
+        "examples": [
+          {
+            "text": "Keep both waves visible at 24 px. Use a clear Merengue surround; do not crop one wave to make the mark appear larger.",
+            "title": "Small symbol"
+          },
+          {
+            "text": "On a poster, enlarge the whole SVG proportionally. Keep product trays separate so the mark does not become an illustration topping.",
+            "title": "Large symbol"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-15",
+        "title": "Logo misuse",
+        "layout": "logo",
+        "summary": "Do not stretch, rotate, outline, crop or decorate the lockup. Preserve the name exactly and avoid replacing the original waves with emoji, stock bakery icons or a boxed initial.",
+        "examples": [
+          {
+            "text": "Use “Masa Dulce”, not “MASADULCE”, “Masa dulce” or “MD” as a replacement wordmark.",
+            "title": "Name integrity"
+          },
+          {
+            "text": "Do not separate the waves, add a third wave, fill one in Guayaba or attach candles to the symbol.",
+            "title": "Geometry integrity"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-16",
+        "title": "Typography",
+        "layout": "divider",
+        "summary": "Use this divider to demonstrate the contrast between wide, compact headlines and open reading text. Bricolage Grotesque leads; Source Sans 3 explains.",
+        "examples": [
+          {
+            "text": "Elige una torta entera o un postre individual para recoger.",
+            "title": "Algo para compartir"
+          },
+          {
+            "text": "Set the headline in Bricolage Grotesque 700 on Mora. Keep the Source Sans 3 supporting line short and in Merengue.",
+            "title": "Divider setting"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-17",
+        "title": "Typography overview",
+        "layout": "type",
+        "summary": "Use the supplied Bricolage Grotesque and Source Sans 3 files. Reserve the first for identity and headings, the second for reading, prices, forms and status labels.",
+        "examples": [
+          {
+            "text": "Consulta las presentaciones y la disponibilidad antes de hacer tu pedido.",
+            "title": "Tortas y postres para recoger"
+          },
+          {
+            "text": "Bricolage Grotesque 700: Masa Dulce and section titles. Source Sans 3 400: descriptions and fields; 600: actions and short emphasis.",
+            "title": "Family roles"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-18",
+        "title": "Primary typeface",
+        "layout": "type",
+        "summary": "Set Bricolage Grotesque 700 at 64 px for the desktop hero and 36 px for section headings or compact views. Use tight line breaks without squeezing or horizontally scaling letters.",
+        "examples": [
+          {
+            "text": "Chocolate o vainilla con frutos rojos: consulta las opciones disponibles.",
+            "title": "Tortas para compartir"
+          },
+          {
+            "text": "Break after “para” only when the full phrase needs two lines. Keep the headline above the display, never over the chocolate cake.",
+            "title": "Headline composition"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-19",
+        "title": "Typography",
+        "layout": "type",
+        "summary": "Use weight and style deliberately: headings and wordmark 700, body 400, controls 600 and quiet metadata 400. Prefer upright text; do not use faux bold or italics to signal status.",
+        "examples": [
+          {
+            "text": "Comprueba los productos, las cantidades y la hora de recogida antes de registrar.",
+            "title": "Revisa tu pedido"
+          },
+          {
+            "text": "Set “Revisar pedido” in Source Sans 3 600. Keep explanatory sentences at 400 and reserve Bricolage Grotesque 700 for the heading.",
+            "title": "Weight specimen"
+          },
+          {
+            "text": "Render “En preparación” upright with a visible label and optional icon. Do not rely on bold, italics or color alone.",
+            "title": "Status style"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-20",
+        "title": "Supporting type",
+        "layout": "type",
+        "summary": "Use Source Sans 3 at 16 px for reading and fields, at least 14 px for buttons and at least 12 px for secondary text. Use readable line spacing and tabular numerals in specifications.",
+        "examples": [
+          {
+            "text": "Elige un día y consulta las franjas disponibles.",
+            "title": "Fecha y hora de recogida"
+          },
+          {
+            "text": "Brownie de cacao · Individual · $8.000. Keep the price aligned with its product and retain full names when lines wrap.",
+            "title": "Price and presentation"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-21",
+        "title": "Hierarchy",
+        "layout": "type",
+        "summary": "Order information as heading, selected product, specification, action and supporting guidance. Establish hierarchy with scale and spacing, not a proliferation of type sizes or repeated totals.",
+        "examples": [
+          {
+            "text": "Torta de chocolate · Entera, 8 porciones orientativas · Cantidad: 1 · Total: $68.000",
+            "title": "Tu selección"
+          },
+          {
+            "text": "Use a 36 px heading, 16 px specification and a 14 px minimum action label. Put “Revisar pedido” before the date and contact fields in normal flow.",
+            "title": "Reading sequence"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-22",
+        "title": "Layouts",
+        "layout": "applications",
+        "summary": "Use the 4/8/12/16/24/32/48/64 spacing scale. Connect display sides to the lower edge. On desktop use compact alternatives, not card grids; at tablet width four chosen items use 2 × 2.",
+        "examples": [
+          {
+            "text": "At 1440 px, let the scene span the editorial width. Keep the chocolate hero unique, followed by a compact alternatives strip.",
+            "title": "Desktop display"
+          },
+          {
+            "text": "At 390 × 640, target 48 px navigation, 64 title/notice, 140 scene, 92 edge and 152 date/slot group. These are budgets, never clipping heights.",
+            "title": "Compact display"
+          },
+          {
+            "text": "At 768 px, place specification and action below four chosen items. Long names, notes and errors expand in flow; never add an overlapping dock.",
+            "title": "Flexible content"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-23",
+        "title": "Colors",
+        "layout": "divider",
+        "summary": "Introduce the palette on a Mora divider. Use the five semantic colors as the structural system and retain Guayaba as a sixth, complementary decorative accent.",
+        "examples": [
+          {
+            "text": "Merengue opens the scene. Mora anchors its edges. Cacao carries the reading text.",
+            "title": "A clear display"
+          },
+          {
+            "text": "Use Pistacho for a quiet support panel and Guayaba for a small berry detail, not for competing primary buttons.",
+            "title": "Accent restraint"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-24",
+        "title": "Colors overview",
+        "layout": "colors",
+        "summary": "Preserve all six hex values. The muted role is named Aviso and serves readable caution copy, not disabled text. Pair light surfaces with Mora or Cacao and label every state in words.",
+        "examples": [
+          {
+            "text": "Background Merengue #FFF9FD · Surface Pistacho #D9E4B5 · Accent Mora #492044.",
+            "title": "Structural tokens"
+          },
+          {
+            "text": "Text Cacao #352724 · Muted/Aviso #8A4100 · Complementary Guayaba #DB5376.",
+            "title": "Reading and detail tokens"
+          },
+          {
+            "text": "Use Merengue text on Mora buttons. Use Aviso on Merengue for warnings; Guayaba is not small text on Merengue.",
+            "title": "Control pairing"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-25",
+        "title": "Using Tints",
+        "layout": "colors",
+        "summary": "Keep semantic tokens at their exact values. Use light Mora tints over Merengue only for decorative separators or quiet panels; never tint text, focus indicators or availability into ambiguity.",
+        "examples": [
+          {
+            "text": "A 10% Mora overlay on Merengue may group “Presentaciones”. Keep its heading and body text in solid Mora or Cacao.",
+            "title": "Quiet support"
+          },
+          {
+            "text": "For “Pausado”, use a solid readable label and disabled action. Do not fade the entire product until its name or illustration becomes hard to recognize.",
+            "title": "State clarity"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-26",
+        "title": "Graphic Elements",
+        "layout": "divider",
+        "summary": "Use connected display sides, complete trays and cream waves as the graphic vocabulary. Move the selected tray and its specification together for 220 ms; keep frame and controls anchored.",
+        "examples": [
+          {
+            "text": "Build a Merengue rectangle with Mora sides physically meeting its solid lower edge. Price, availability and Encargar belong on that edge.",
+            "title": "Frontal construction"
+          },
+          {
+            "text": "Selecting Cheesecake de maracuyá changes its tray and specification together. With reduced motion, replace immediately; invalid input never moves the last valid scene.",
+            "title": "Selection movement"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-27",
+        "title": "Icons",
+        "layout": "content",
+        "summary": "Use simple, consistent icons with visible labels for actions and states. Keep the wave symbol exclusive to identity. Use 24 px icon canvases inside controls with at least 44 px touch targets.",
+        "examples": [
+          {
+            "text": "Pair a calendar icon with “Fecha de recogida” and a directional icon with “Ver detalle”. Never make an unlabeled cake icon the only ordering control.",
+            "title": "Named actions"
+          },
+          {
+            "text": "Pair a pause icon with “Pausado” and a check with “Listo”. Use clear focus and control boundaries with at least 3:1 contrast.",
+            "title": "Readable states"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-28",
+        "title": "Product illustration",
+        "layout": "applications",
+        "summary": "Replace photography with deliberately flat SVG drawings. Maintain four canonical products, complete trays and version-consistent silhouettes across catalog, review and saved confirmation.",
+        "examples": [
+          {
+            "text": "Show Torta de chocolate with Cacao coverage and Torta de vainilla y frutos rojos with a light top and Guayaba berries. Both remain whole, never cut open.",
+            "title": "Whole cakes"
+          },
+          {
+            "text": "Show Cheesecake de maracuyá with a flat Aviso-colored top and Brownie de cacao as a distinct Cacao block. Give each SVG its full accessible product name.",
+            "title": "Individual desserts"
+          },
+          {
+            "text": "A drawing identifies the product, not stock or unit count. Saved orders retain the presentation version associated with their frozen lines.",
+            "title": "Representation limits"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-29",
+        "title": "Moodboard",
+        "layout": "applications",
+        "summary": "Assemble a code-drawn board of wide typography, frontal frames, flat toppings and orderly specifications. Exclude raster images, photorealism, invented interiors and celebratory table scenes.",
+        "examples": [
+          {
+            "text": "Mora display edge, Merengue plane, chocolate silhouette, two cream waves and a neatly aligned “$68.000 · Encargar” strip.",
+            "title": "Include"
+          },
+          {
+            "text": "No flour-dusted photography, vintage recipe paper, terracotta serif labels, balloons or automatically animated entrances.",
+            "title": "Exclude"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-30",
+        "title": "Applications",
+        "layout": "divider",
+        "summary": "Label every application as a design study in its presentation caption. Carry the same frame, name, waves and type hierarchy into each medium without implying an implemented feature.",
+        "examples": [
+          {
+            "text": "Consulta las tortas y los postres disponibles para recoger.",
+            "title": "Elige algo para compartir"
+          },
+          {
+            "text": "Use the product above and useful information below. A print piece may echo the lower edge, but must not suggest a working button or payment service.",
+            "title": "Design study · Shared system"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-31",
+        "title": "Social media icons",
+        "layout": "logo",
+        "summary": "Design study: use the unchanged wave SVG on a Merengue avatar field. Allow generous circular-crop clearance and omit tiny lettering, product art and decorative borders.",
+        "examples": [
+          {
+            "text": "Tortas para compartir y postres para recoger.",
+            "title": "Masa Dulce"
+          },
+          {
+            "text": "Center a 64 px symbol canvas within a 96 px Merengue field. Keep both waves intact in square and circular previews.",
+            "title": "Design study · Avatar"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-32",
+        "title": "Social media profiles",
+        "layout": "applications",
+        "summary": "Design study: pair the wave avatar with the exact name and a brief descriptive bio. Do not invent a handle, contact channel, verified badge, address or audience count.",
+        "examples": [
+          {
+            "text": "Pastelería ficticia en Cali. Tortas y postres de demostración para recoger.",
+            "title": "Masa Dulce"
+          },
+          {
+            "text": "Set the name first, description second and catalog reference last. Use the frontal frame in the banner without repeating the full homepage hero.",
+            "title": "Design study · Profile header"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-33",
+        "title": "Instagram posts",
+        "layout": "applications",
+        "summary": "Design study: show one canonical product per post, with a short heading above and presentation below. Keep price examples secondary and direct readers to current catalog availability.",
+        "examples": [
+          {
+            "text": "Torta de chocolate · Entera, 8 porciones orientativas · Precio de ejemplo: $68.000 COP. Consulta la disponibilidad en el catálogo.",
+            "title": "Chocolate para compartir"
+          },
+          {
+            "text": "Cheesecake de maracuyá · Individual · Precio de ejemplo: $14.000 COP.",
+            "title": "Un postre individual"
+          },
+          {
+            "text": "Use a Merengue field, Mora lower edge and one complete tray. Keep captions clear of the product silhouette.",
+            "title": "Design study · Post layout"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-34",
+        "title": "Posters",
+        "layout": "applications",
+        "summary": "Design study: use one large headline, one product drawing and one lower information band. Let the wordmark identify the poster without adding fabricated store details or scannable destinations.",
+        "examples": [
+          {
+            "text": "Chocolate o vainilla con frutos rojos. Consulta presentaciones y disponibilidad en el catálogo.",
+            "title": "Tortas para compartir"
+          },
+          {
+            "text": "Place the heading above the display. Give the complete cake most of the central plane and use the lower edge for the catalog invitation.",
+            "title": "Design study · Poster hierarchy"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-35",
+        "title": "T shirts and totes",
+        "layout": "applications",
+        "summary": "Design study: favor a single Mora signature on a Merengue-colored field. Use a support patch on dark fabric and keep the mark away from seams, folds and handles.",
+        "examples": [
+          {
+            "text": "Masa Dulce",
+            "title": "Algo para compartir"
+          },
+          {
+            "text": "Center the waves above the name with a full safezone. Keep the reverse plain rather than adding prices, a menu or an invented address.",
+            "title": "Design study · Tote"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-36",
+        "title": "Takeaway packaging",
+        "layout": "applications",
+        "summary": "Design study: keep the lid calm, with the identity above a frontal-edge label. State product and presentation in text; do not invent materials, food certifications or storage instructions.",
+        "examples": [
+          {
+            "text": "Entera, 8 porciones orientativas · Masa Dulce",
+            "title": "Torta de vainilla y frutos rojos"
+          },
+          {
+            "text": "Use “Brownie de cacao · Individual” on a Merengue label with Mora type. Keep the complete wave symbol clear of the opening fold.",
+            "title": "Design study · Individual sleeve"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-37",
+        "title": "Pickup location",
+        "layout": "applications",
+        "summary": "Design study: organize pickup guidance around the selected day and hour. Cali is fictional project context; show no street address, map, storefront photograph or invented collection procedure.",
+        "examples": [
+          {
+            "text": "Política de ejemplo: todos los días, de 10:00 a 18:00. Elige una fecha y una franja disponible.",
+            "title": "Recogida en tienda"
+          },
+          {
+            "text": "Explain today through 30 days ahead, at least one hour's notice and Bogotá time. Display hourly options through 18:00, the last pickup.",
+            "title": "Design study · Pickup guidance"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-38",
+        "title": "Ordering controls",
+        "layout": "applications",
+        "summary": "Design study for /pedido: distinguish editing, review and registration. Keep visible labels, 44 px targets and errors in flow. Revisar pedido remains actionable to expose linked field errors.",
+        "examples": [
+          {
+            "text": "Revisa los productos, la fecha, la franja y tus datos. Este paso no registra el pedido ni reserva un cupo.",
+            "title": "Revisar pedido"
+          },
+          {
+            "text": "Place quantities, total and Revisar first; date/slot, name, celular and note follow. Allow 1–99 per product, 198 combined; invalid quantities hide the total.",
+            "title": "Design study · Continuous form"
+          },
+          {
+            "text": "Show “Completa” for a full six-order slot. Preserve conflicting selections; offer another time explicitly. Review replaces editing with Registrar pedido.",
+            "title": "Design study · Explicit choices"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-39",
+        "title": "Order receipt",
+        "layout": "applications",
+        "summary": "Design study for /pedido/confirmacion: show only an authorized saved result. Put status, frozen specification and pickup in one lower edge; place version references and return links afterward.",
+        "examples": [
+          {
+            "text": "Estado: Recibido. Este registro no supone pago ni entrega garantizada.",
+            "title": "Pedido de demostración registrado"
+          },
+          {
+            "text": "Torta de chocolate · Cantidad: 1 · Unitario: $68.000 · Subtotal: $68.000 · Total: $68.000 COP. Show the saved pickup alongside, not a second summary.",
+            "title": "Design study · Frozen specification"
+          },
+          {
+            "text": "Use /pedido/confirmacion?id=… with a non-secret identifier; the session grants access. Reload reads the saved order and current status, never a fabricated receipt.",
+            "title": "Design study · Private reading"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-40",
+        "title": "Return-visit card",
+        "layout": "applications",
+        "summary": "Design study: replace a rewards card with a simple catalog reminder. Preserve the compact card format without points, stamps, membership tiers, discounts or an implied loyalty program.",
+        "examples": [
+          {
+            "text": "Vuelve al catálogo para consultar las tortas y los postres disponibles.",
+            "title": "¿Algo para otra ocasión?"
+          },
+          {
+            "text": "Use the wave symbol on one side and the short invitation on the other. Leave out redemption fields, reward counters and promotional codes.",
+            "title": "Design study · Reminder card"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-41",
+        "title": "Bakery sign",
+        "layout": "applications",
+        "summary": "Design study: treat signage as typographic identification, not evidence of a real shop. Use the primary signature at generous scale with a quiet descriptor and no invented opening claims.",
+        "examples": [
+          {
+            "text": "Tortas y postres",
+            "title": "Masa Dulce"
+          },
+          {
+            "text": "Use Mora lettering on Merengue. Keep the waves separate from the sign edge and omit street numbers, contact details and decorative cake photographs.",
+            "title": "Design study · Sign face"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-42",
+        "title": "Ordering website",
+        "layout": "applications",
+        "summary": "Design study: keep Inicio, Catálogo and Hacer pedido stable across public routes. This is a database-backed plan: availability, drafts, orders and owner changes must not be presented as locally simulated success.",
+        "examples": [
+          {
+            "text": "Explora el catálogo, elige los productos y revisa la recogida antes de registrar.",
+            "title": "Encuentra tu próximo postre"
+          },
+          {
+            "text": "/ leads with chocolate; /catalogo filters Tortas, Postres and availability. Unknown references block Encargar until explicit selection; paused products stay recognizable.",
+            "title": "Design study · Public routes"
+          },
+          {
+            "text": "/duena/acceso leads to /duena: today's Bogotá agenda and Productos. Use Recibido → En preparación → Listo → Entregado, plus Pausar/Reactivar and Cerrar sesión.",
+            "title": "Design study · Private routes"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-43",
+        "title": "Favicon",
+        "layout": "logo",
+        "summary": "Design study: reuse the exact original wave geometry for the favicon, app/icon.svg and declared application icon. Use a Merengue support field, with no letters or replacement small-size mark.",
+        "examples": [
+          {
+            "text": "Consulta el catálogo y prepara tu pedido de demostración.",
+            "title": "Masa Dulce — Tortas y postres para recoger"
+          },
+          {
+            "text": "Keep both Mora waves visible within the square. Preserve the same silhouette at 16, 32 and 48 px; never crop the lower wave.",
+            "title": "Design study · Browser identity"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-44",
+        "title": "Stationery",
+        "layout": "applications",
+        "summary": "Design study: place a modest signature at the top and use Source Sans 3 for the document body. Echo the display with one bottom rule, not a full product scene.",
+        "examples": [
+          {
+            "text": "Productos, cantidades y recogida en una sola lectura.",
+            "title": "Detalle del encargo"
+          },
+          {
+            "text": "Use Merengue paper color, Cacao body text and Mora headings. Keep notes separate from item rows; omit invented legal, tax and contact information.",
+            "title": "Design study · Document sheet"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-45",
+        "title": "Business cards",
+        "layout": "applications",
+        "summary": "Design study: use a brand introduction card without fabricated people or contact details. Put identity on the front and a concise description on the reverse, preserving generous safezones.",
+        "examples": [
+          {
+            "text": "Tortas para compartir y postres para recoger. Proyecto ficticio en Cali.",
+            "title": "Masa Dulce"
+          },
+          {
+            "text": "Front: Mora waves and name on Merengue. Reverse: Cacao description with one Mora lower rule. Do not add a phone number, handle or QR code.",
+            "title": "Design study · Two-sided card"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-46",
+        "title": "Gift note",
+        "layout": "applications",
+        "summary": "Design study: reinterpret the gift-card format as a personal enclosure, not stored value. Use a small wave signature and open writing space; add no balance, redemption code or purchasing action.",
+        "examples": [
+          {
+            "text": "De: __________  Para: __________",
+            "title": "Para compartir contigo"
+          },
+          {
+            "text": "Set the greeting in Bricolage Grotesque 700 and writing labels in Source Sans 3. Keep the center clear and the Mora edge shallow.",
+            "title": "Design study · Enclosure"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-47",
+        "title": "Packaging seal",
+        "layout": "applications",
+        "summary": "Design study: center the unchanged waves on a Merengue seal and place the name separately when space allows. Treat the seal as identification, never as proof of hygiene or tamper resistance.",
+        "examples": [
+          {
+            "text": "Algo para compartir",
+            "title": "Masa Dulce"
+          },
+          {
+            "text": "Keep the complete symbol on one flat area, away from folds. If the seal is too small for the phrase, omit the phrase rather than shrinking it into illegibility.",
+            "title": "Design study · Seal placement"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-48",
+        "title": "Customer support",
+        "layout": "applications",
+        "summary": "Design study: provide recovery beside the affected action, not through invented chat or contact services. Distinguish invalid input, conflicts, blocked access and uncertain registration without exposing private data.",
+        "examples": [
+          {
+            "text": "Tu pedido pudo quedar registrado. Usa Recuperar para consultar la misma operación antes de editar o iniciar otro pedido.",
+            "title": "No pudimos confirmar el resultado"
+          },
+          {
+            "text": "Escribe exactamente diez dígitos, empezando por 3. Conservaremos los demás datos mientras corriges este campo.",
+            "title": "Revisa tu celular"
+          },
+          {
+            "text": "If storage or session access fails, keep visible input and offer recovery; never claim it is saved. If owner access is unconfigured, show unavailability, not a sample code.",
+            "title": "Design study · Blocked states"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-49",
+        "title": "Thank you",
+        "layout": "cover",
+        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
+        "examples": [
+          {
+            "text": "Keep the name exact, the display clear and every action honest.",
+            "title": "Gracias por darle forma a Masa Dulce"
+          },
+          {
+            "text": "Sources are the supplied fictional project plan, catalog, policy, palette and Bricolage Grotesque and Source Sans 3 files. No public-identity sources were requested.",
+            "title": "Sources and credits"
+          },
+          {
+            "text": "The proposed two-wave symbol is original; product direction is code-drawn. Layouts are design studies. No real premises, photography, memberships or service guarantees are claimed.",
+            "title": "Colophon"
+          }
+        ]
+      }
+    ],
+    "voice": "Cálida, directa y colombiana. Usar “Encargar”, “Hacer pedido”, “Recoger” y explicaciones cortas, sin exageraciones ni garantías inventadas. Un aviso de demostración por página; aclaraciones operativas solo donde ayudan a decidir o recuperar una acción.",
+    "colors": [
+      {
+        "hex": "#FFF9FD",
+        "name": "Merengue",
+        "role": "background"
+      },
+      {
+        "hex": "#D9E4B5",
+        "name": "Pistacho",
+        "role": "surface"
+      },
+      {
+        "hex": "#492044",
+        "name": "Mora",
+        "role": "accent"
+      },
+      {
+        "hex": "#352724",
+        "name": "Cacao",
+        "role": "text"
+      },
+      {
+        "hex": "#8A4100",
+        "name": "Aviso",
+        "role": "muted"
+      }
+    ],
+    "origin": "proposed",
+    "markSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 160\"><path fill=\"#492044\" d=\"M24 50C40 34 56 34 80 50C100 64 112 64 126 50C130 46 136 46 140 50C144 54 144 60 140 64C118 86 96 82 70 66C52 54 44 54 38 64C34 68 28 68 24 64C20 60 20 54 24 50Z\"/><path fill=\"#492044\" d=\"M24 90C40 74 56 74 80 90C100 104 112 104 126 90C130 86 136 86 140 90C144 94 144 100 140 104C118 126 96 122 70 106C52 94 44 94 38 104C34 108 28 108 24 104C20 100 20 94 24 90Z\"/></svg>",
     "sources": [
       "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&display=swap",
       "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap"
     ],
-    "colors": [
-      {
-        "role": "background",
-        "name": "Merengue",
-        "hex": "#FFF9FD"
-      },
-      {
-        "role": "surface",
-        "name": "Pistacho",
-        "hex": "#D9E4B5"
-      },
-      {
-        "role": "accent",
-        "name": "Mora",
-        "hex": "#492044"
-      },
-      {
-        "role": "text",
-        "name": "Cacao",
-        "hex": "#352724"
-      },
-      {
-        "role": "muted",
-        "name": "Aviso",
-        "hex": "#8A4100"
-      }
-    ],
+    "version": 1,
     "fontFaces": [
       {
-        "family": "Bricolage Grotesque",
-        "weight": "400",
         "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvRviyM0.ttf",
+        "family": "Bricolage Grotesque",
+        "weight": "400",
         "availableWeights": [
           "400",
           "500",
@@ -62,9 +874,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvSniyM0.ttf",
         "family": "Bricolage Grotesque",
         "weight": "500",
-        "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvSniyM0.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -73,9 +885,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvcXlyM0.ttf",
         "family": "Bricolage Grotesque",
         "weight": "600",
-        "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvcXlyM0.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -84,9 +896,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvfzlyM0.ttf",
         "family": "Bricolage Grotesque",
         "weight": "700",
-        "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvfzlyM0.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -95,9 +907,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky461EN.ttf",
         "family": "Source Sans 3",
         "weight": "400",
-        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky461EN.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -106,9 +918,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8KyK61EN.ttf",
         "family": "Source Sans 3",
         "weight": "500",
-        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8KyK61EN.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -117,9 +929,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxm7FEN.ttf",
         "family": "Source Sans 3",
         "weight": "600",
-        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxm7FEN.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -128,9 +940,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxf7FEN.ttf",
         "family": "Source Sans 3",
         "weight": "700",
-        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxf7FEN.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -139,828 +951,16 @@
         ]
       }
     ],
-    "markSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 160\"><path fill=\"#492044\" d=\"M24 50C40 34 56 34 80 50C100 64 112 64 126 50C130 46 136 46 140 50C144 54 144 60 140 64C118 86 96 82 70 66C52 54 44 54 38 64C34 68 28 68 24 64C20 60 20 54 24 50Z\"/><path fill=\"#492044\" d=\"M24 90C40 74 56 74 80 90C100 104 112 104 126 90C130 86 136 86 140 90C144 94 144 100 140 104C118 126 96 122 70 106C52 94 44 94 38 104C34 108 28 108 24 104C20 100 20 94 24 90Z\"/></svg>",
-    "pages": [
-      {
-        "title": "Brand guidelines",
-        "summary": "Identidad original propuesta para una pastelería ficticia en Cali: tortas para compartir y postres para recoger, con elección clara, precios de ejemplo y registro verificable de encargos de demostración.",
-        "examples": [
-          {
-            "title": "Masa Dulce",
-            "text": "Tortas para compartir. Postres para recoger."
-          },
-          {
-            "title": "Cover composition",
-            "text": "Keep the name dominant, the two-wave symbol secondary and the guide label small. Do not introduce a product illustration on the cover."
-          }
-        ],
-        "id": "brand-page-1",
-        "layout": "cover"
-      },
-      {
-        "title": "The Brand",
-        "summary": "Use a Mora chapter divider with a short statement in Merengue. Introduce the frontal display as the organizing idea, not as a picture of actual premises.",
-        "examples": [
-          {
-            "title": "Elegir. Encargar. Recoger.",
-            "text": "Masa Dulce brings product, specification and action together along one clear working edge."
-          }
-        ],
-        "id": "brand-page-2",
-        "layout": "divider"
-      },
-      {
-        "title": "Welcome",
-        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
-        "examples": [
-          {
-            "title": "One notice per web page",
-            "text": "Demostración ficticia: productos, precios, disponibilidad e imágenes ilustrativos"
-          },
-          {
-            "title": "Scope",
-            "text": "The name, example catalog, pickup policy, palette and typefaces come from the project brief. Do not add an address, reviews, contacts or operational guarantees."
-          }
-        ],
-        "id": "brand-page-3",
-        "layout": "content"
-      },
-      {
-        "title": "Index",
-        "summary": "Read from identity to application. Preserve this sequence so composition and editorial decisions are established before interface or print studies.",
-        "examples": [
-          {
-            "title": "01–22 · Identity and typography",
-            "text": "Cover, brand foundations, voice, logo, typography and layouts."
-          },
-          {
-            "title": "23–49 · Expression and applications",
-            "text": "Colors, graphic elements, illustration direction, application studies and closing credits."
-          }
-        ],
-        "id": "brand-page-4",
-        "layout": "content"
-      },
-      {
-        "title": "Defining",
-        "summary": "Build recognition through a frontal display: Merengue interior, Mora sides and a connected lower edge. Keep the title outside the scene and product information below the trays.",
-        "examples": [
-          {
-            "title": "A single working edge",
-            "text": "Torta de chocolate · Entera, 8 porciones orientativas · $68.000 · Encargar"
-          },
-          {
-            "title": "Chosen direction",
-            "text": "Use the frontal display, not a recipe notebook or celebration table. Avoid split heroes, interchangeable card grids and cream/serif/terracotta styling."
-          }
-        ],
-        "id": "brand-page-5",
-        "layout": "content"
-      },
-      {
-        "title": "Vision & Mission",
-        "summary": "Express project intent rather than an invented corporate mission. Lead with clear selection and explain pickup without claims about quality, heritage or guaranteed service.",
-        "examples": [
-          {
-            "title": "Tortas para compartir",
-            "text": "Explora las presentaciones, consulta la disponibilidad y elige qué recoger."
-          },
-          {
-            "title": "Un encargo claro",
-            "text": "Revisa los productos y la recogida antes de registrar tu pedido de demostración."
-          }
-        ],
-        "id": "brand-page-6",
-        "layout": "content"
-      },
-      {
-        "title": "Brand Values",
-        "summary": "Use clarity, care and honesty as design criteria for this project, not claimed company values. Give availability, quantities and uncertain outcomes explicit language.",
-        "examples": [
-          {
-            "title": "Clarity",
-            "text": "“Individual” describes the cheesecake. “Entera, 8 porciones orientativas” describes each whole cake; the illustration never defines quantity."
-          },
-          {
-            "title": "Honesty",
-            "text": "Use “No pudimos confirmar el resultado” when registration is uncertain, never “Pedido registrado” before an authorized server response."
-          }
-        ],
-        "id": "brand-page-7",
-        "layout": "content"
-      },
-      {
-        "title": "Tone of Voice",
-        "summary": "Write warm, direct Colombian Spanish. Use short sentences, familiar action verbs and specific next steps. Avoid exaggerated sweetness, pressure, invented guarantees and technical jargon.",
-        "examples": [
-          {
-            "title": "Preferred vocabulary",
-            "text": "Encargar · Hacer pedido · Recoger · Revisar pedido · Registrar pedido"
-          },
-          {
-            "title": "Helpful correction",
-            "text": "Esta franja está completa. Elige otra hora o consulta otro día."
-          },
-          {
-            "title": "Avoid",
-            "text": "Replace “¡El mejor postre de Cali, garantizado!” with “Consulta las tortas y los postres disponibles”."
-          }
-        ],
-        "id": "brand-page-8",
-        "layout": "content"
-      },
-      {
-        "title": "Logo",
-        "summary": "Open the logo chapter on Mora with Merengue type. Present the name and two cream waves as complementary elements; never turn the symbol into a letter or a cake illustration.",
-        "examples": [
-          {
-            "title": "Masa Dulce",
-            "text": "A wide typographic name, paired with two parallel cream waves."
-          }
-        ],
-        "id": "brand-page-9",
-        "layout": "divider"
-      },
-      {
-        "title": "Logo overview",
-        "summary": "The identity combines live Bricolage Grotesque 700 lettering with the original two-wave SVG. Use a Pistacho study background and a Merengue support surface behind the complete symbol.",
-        "examples": [
-          {
-            "title": "Full signature",
-            "text": "Place the waves to the left of “Masa Dulce”. Align the symbol optically with the name rather than the bottom of its SVG canvas."
-          },
-          {
-            "title": "Compact signature",
-            "text": "Use the waves alone for the application icon. Keep “Masa Dulce” as the adjacent visible name or accessible label."
-          }
-        ],
-        "id": "brand-page-10",
-        "layout": "logo"
-      },
-      {
-        "title": "Primary logo",
-        "summary": "Render Masa Dulce in mixed case, Bricolage Grotesque 700, with compact spacing and no distortion. Set the primary signature in Mora on Merengue.",
-        "examples": [
-          {
-            "title": "Header lockup",
-            "text": "Use a 32 px symbol canvas beside a 24 px Masa Dulce wordmark, separated by 8 px. Let navigation wrap or reflow rather than compress the name."
-          },
-          {
-            "title": "Dark application",
-            "text": "Use Merengue lettering on Cacao. Keep the original Mora symbol unchanged on its Merengue support surface."
-          }
-        ],
-        "id": "brand-page-11",
-        "layout": "logo"
-      },
-      {
-        "title": "Logo Safezone",
-        "summary": "Reserve clear space equal to one quarter of the symbol canvas on every side of the lockup. Keep illustration trays, borders and control labels outside this space.",
-        "examples": [
-          {
-            "title": "Header spacing",
-            "text": "A 32 px symbol canvas establishes an 8 px outer safezone. Measure from the complete lockup, including the name."
-          },
-          {
-            "title": "Print spacing",
-            "text": "A 16 mm symbol canvas establishes a 4 mm safezone. Do not let a packaging fold or seal edge enter it."
-          }
-        ],
-        "id": "brand-page-12",
-        "layout": "logo"
-      },
-      {
-        "title": "Color combinations",
-        "summary": "Prefer Mora on Merengue for the full identity. On Pistacho or dark fields, retain the symbol geometry and Mora fill on a Merengue support surface; do not recolor individual waves.",
-        "examples": [
-          {
-            "title": "Light combination",
-            "text": "Merengue #FFF9FD background, Mora #492044 name and symbol, Cacao #352724 supporting copy."
-          },
-          {
-            "title": "Dark combination",
-            "text": "Cacao #352724 field, Merengue #FFF9FD name, original Mora symbol on Merengue. Keep Guayaba away from small lettering."
-          }
-        ],
-        "id": "brand-page-13",
-        "layout": "colors"
-      },
-      {
-        "title": "Brandmark",
-        "summary": "Use the supplied original SVG as one indivisible symbol: two parallel rounded cream waves in a 160 × 160 viewBox. Share the exact geometry across the header, favicon and application icon.",
-        "examples": [
-          {
-            "title": "Small symbol",
-            "text": "Keep both waves visible at 24 px. Use a clear Merengue surround; do not crop one wave to make the mark appear larger."
-          },
-          {
-            "title": "Large symbol",
-            "text": "On a poster, enlarge the whole SVG proportionally. Keep product trays separate so the mark does not become an illustration topping."
-          }
-        ],
-        "id": "brand-page-14",
-        "layout": "logo"
-      },
-      {
-        "title": "Logo misuse",
-        "summary": "Do not stretch, rotate, outline, crop or decorate the lockup. Preserve the name exactly and avoid replacing the original waves with emoji, stock bakery icons or a boxed initial.",
-        "examples": [
-          {
-            "title": "Name integrity",
-            "text": "Use “Masa Dulce”, not “MASADULCE”, “Masa dulce” or “MD” as a replacement wordmark."
-          },
-          {
-            "title": "Geometry integrity",
-            "text": "Do not separate the waves, add a third wave, fill one in Guayaba or attach candles to the symbol."
-          }
-        ],
-        "id": "brand-page-15",
-        "layout": "logo"
-      },
-      {
-        "title": "Typography",
-        "summary": "Use this divider to demonstrate the contrast between wide, compact headlines and open reading text. Bricolage Grotesque leads; Source Sans 3 explains.",
-        "examples": [
-          {
-            "title": "Algo para compartir",
-            "text": "Elige una torta entera o un postre individual para recoger."
-          },
-          {
-            "title": "Divider setting",
-            "text": "Set the headline in Bricolage Grotesque 700 on Mora. Keep the Source Sans 3 supporting line short and in Merengue."
-          }
-        ],
-        "id": "brand-page-16",
-        "layout": "divider"
-      },
-      {
-        "title": "Typography overview",
-        "summary": "Use the supplied Bricolage Grotesque and Source Sans 3 files. Reserve the first for identity and headings, the second for reading, prices, forms and status labels.",
-        "examples": [
-          {
-            "title": "Tortas y postres para recoger",
-            "text": "Consulta las presentaciones y la disponibilidad antes de hacer tu pedido."
-          },
-          {
-            "title": "Family roles",
-            "text": "Bricolage Grotesque 700: Masa Dulce and section titles. Source Sans 3 400: descriptions and fields; 600: actions and short emphasis."
-          }
-        ],
-        "id": "brand-page-17",
-        "layout": "type"
-      },
-      {
-        "title": "Primary typeface",
-        "summary": "Set Bricolage Grotesque 700 at 64 px for the desktop hero and 36 px for section headings or compact views. Use tight line breaks without squeezing or horizontally scaling letters.",
-        "examples": [
-          {
-            "title": "Tortas para compartir",
-            "text": "Chocolate o vainilla con frutos rojos: consulta las opciones disponibles."
-          },
-          {
-            "title": "Headline composition",
-            "text": "Break after “para” only when the full phrase needs two lines. Keep the headline above the display, never over the chocolate cake."
-          }
-        ],
-        "id": "brand-page-18",
-        "layout": "type"
-      },
-      {
-        "title": "Typography",
-        "summary": "Use weight and style deliberately: headings and wordmark 700, body 400, controls 600 and quiet metadata 400. Prefer upright text; do not use faux bold or italics to signal status.",
-        "examples": [
-          {
-            "title": "Revisa tu pedido",
-            "text": "Comprueba los productos, las cantidades y la hora de recogida antes de registrar."
-          },
-          {
-            "title": "Weight specimen",
-            "text": "Set “Revisar pedido” in Source Sans 3 600. Keep explanatory sentences at 400 and reserve Bricolage Grotesque 700 for the heading."
-          },
-          {
-            "title": "Status style",
-            "text": "Render “En preparación” upright with a visible label and optional icon. Do not rely on bold, italics or color alone."
-          }
-        ],
-        "id": "brand-page-19",
-        "layout": "type"
-      },
-      {
-        "title": "Supporting type",
-        "summary": "Use Source Sans 3 at 16 px for reading and fields, at least 14 px for buttons and at least 12 px for secondary text. Use readable line spacing and tabular numerals in specifications.",
-        "examples": [
-          {
-            "title": "Fecha y hora de recogida",
-            "text": "Elige un día y consulta las franjas disponibles."
-          },
-          {
-            "title": "Price and presentation",
-            "text": "Brownie de cacao · Individual · $8.000. Keep the price aligned with its product and retain full names when lines wrap."
-          }
-        ],
-        "id": "brand-page-20",
-        "layout": "type"
-      },
-      {
-        "title": "Hierarchy",
-        "summary": "Order information as heading, selected product, specification, action and supporting guidance. Establish hierarchy with scale and spacing, not a proliferation of type sizes or repeated totals.",
-        "examples": [
-          {
-            "title": "Tu selección",
-            "text": "Torta de chocolate · Entera, 8 porciones orientativas · Cantidad: 1 · Total: $68.000"
-          },
-          {
-            "title": "Reading sequence",
-            "text": "Use a 36 px heading, 16 px specification and a 14 px minimum action label. Put “Revisar pedido” before the date and contact fields in normal flow."
-          }
-        ],
-        "id": "brand-page-21",
-        "layout": "type"
-      },
-      {
-        "title": "Layouts",
-        "summary": "Use the 4/8/12/16/24/32/48/64 spacing scale. Connect display sides to the lower edge. On desktop use compact alternatives, not card grids; at tablet width four chosen items use 2 × 2.",
-        "examples": [
-          {
-            "title": "Desktop display",
-            "text": "At 1440 px, let the scene span the editorial width. Keep the chocolate hero unique, followed by a compact alternatives strip."
-          },
-          {
-            "title": "Compact display",
-            "text": "At 390 × 640, target 48 px navigation, 64 title/notice, 140 scene, 92 edge and 152 date/slot group. These are budgets, never clipping heights."
-          },
-          {
-            "title": "Flexible content",
-            "text": "At 768 px, place specification and action below four chosen items. Long names, notes and errors expand in flow; never add an overlapping dock."
-          }
-        ],
-        "id": "brand-page-22",
-        "layout": "applications"
-      },
-      {
-        "title": "Colors",
-        "summary": "Introduce the palette on a Mora divider. Use the five semantic colors as the structural system and retain Guayaba as a sixth, complementary decorative accent.",
-        "examples": [
-          {
-            "title": "A clear display",
-            "text": "Merengue opens the scene. Mora anchors its edges. Cacao carries the reading text."
-          },
-          {
-            "title": "Accent restraint",
-            "text": "Use Pistacho for a quiet support panel and Guayaba for a small berry detail, not for competing primary buttons."
-          }
-        ],
-        "id": "brand-page-23",
-        "layout": "divider"
-      },
-      {
-        "title": "Colors overview",
-        "summary": "Preserve all six hex values. The muted role is named Aviso and serves readable caution copy, not disabled text. Pair light surfaces with Mora or Cacao and label every state in words.",
-        "examples": [
-          {
-            "title": "Structural tokens",
-            "text": "Background Merengue #FFF9FD · Surface Pistacho #D9E4B5 · Accent Mora #492044."
-          },
-          {
-            "title": "Reading and detail tokens",
-            "text": "Text Cacao #352724 · Muted/Aviso #8A4100 · Complementary Guayaba #DB5376."
-          },
-          {
-            "title": "Control pairing",
-            "text": "Use Merengue text on Mora buttons. Use Aviso on Merengue for warnings; Guayaba is not small text on Merengue."
-          }
-        ],
-        "id": "brand-page-24",
-        "layout": "colors"
-      },
-      {
-        "title": "Using Tints",
-        "summary": "Keep semantic tokens at their exact values. Use light Mora tints over Merengue only for decorative separators or quiet panels; never tint text, focus indicators or availability into ambiguity.",
-        "examples": [
-          {
-            "title": "Quiet support",
-            "text": "A 10% Mora overlay on Merengue may group “Presentaciones”. Keep its heading and body text in solid Mora or Cacao."
-          },
-          {
-            "title": "State clarity",
-            "text": "For “Pausado”, use a solid readable label and disabled action. Do not fade the entire product until its name or illustration becomes hard to recognize."
-          }
-        ],
-        "id": "brand-page-25",
-        "layout": "colors"
-      },
-      {
-        "title": "Graphic Elements",
-        "summary": "Use connected display sides, complete trays and cream waves as the graphic vocabulary. Move the selected tray and its specification together for 220 ms; keep frame and controls anchored.",
-        "examples": [
-          {
-            "title": "Frontal construction",
-            "text": "Build a Merengue rectangle with Mora sides physically meeting its solid lower edge. Price, availability and Encargar belong on that edge."
-          },
-          {
-            "title": "Selection movement",
-            "text": "Selecting Cheesecake de maracuyá changes its tray and specification together. With reduced motion, replace immediately; invalid input never moves the last valid scene."
-          }
-        ],
-        "id": "brand-page-26",
-        "layout": "divider"
-      },
-      {
-        "title": "Icons",
-        "summary": "Use simple, consistent icons with visible labels for actions and states. Keep the wave symbol exclusive to identity. Use 24 px icon canvases inside controls with at least 44 px touch targets.",
-        "examples": [
-          {
-            "title": "Named actions",
-            "text": "Pair a calendar icon with “Fecha de recogida” and a directional icon with “Ver detalle”. Never make an unlabeled cake icon the only ordering control."
-          },
-          {
-            "title": "Readable states",
-            "text": "Pair a pause icon with “Pausado” and a check with “Listo”. Use clear focus and control boundaries with at least 3:1 contrast."
-          }
-        ],
-        "id": "brand-page-27",
-        "layout": "content"
-      },
-      {
-        "title": "Product illustration",
-        "summary": "Replace photography with deliberately flat SVG drawings. Maintain four canonical products, complete trays and version-consistent silhouettes across catalog, review and saved confirmation.",
-        "examples": [
-          {
-            "title": "Whole cakes",
-            "text": "Show Torta de chocolate with Cacao coverage and Torta de vainilla y frutos rojos with a light top and Guayaba berries. Both remain whole, never cut open."
-          },
-          {
-            "title": "Individual desserts",
-            "text": "Show Cheesecake de maracuyá with a flat Aviso-colored top and Brownie de cacao as a distinct Cacao block. Give each SVG its full accessible product name."
-          },
-          {
-            "title": "Representation limits",
-            "text": "A drawing identifies the product, not stock or unit count. Saved orders retain the presentation version associated with their frozen lines."
-          }
-        ],
-        "id": "brand-page-28",
-        "layout": "applications"
-      },
-      {
-        "title": "Moodboard",
-        "summary": "Assemble a code-drawn board of wide typography, frontal frames, flat toppings and orderly specifications. Exclude raster images, photorealism, invented interiors and celebratory table scenes.",
-        "examples": [
-          {
-            "title": "Include",
-            "text": "Mora display edge, Merengue plane, chocolate silhouette, two cream waves and a neatly aligned “$68.000 · Encargar” strip."
-          },
-          {
-            "title": "Exclude",
-            "text": "No flour-dusted photography, vintage recipe paper, terracotta serif labels, balloons or automatically animated entrances."
-          }
-        ],
-        "id": "brand-page-29",
-        "layout": "applications"
-      },
-      {
-        "title": "Applications",
-        "summary": "Label every application as a design study in its presentation caption. Carry the same frame, name, waves and type hierarchy into each medium without implying an implemented feature.",
-        "examples": [
-          {
-            "title": "Elige algo para compartir",
-            "text": "Consulta las tortas y los postres disponibles para recoger."
-          },
-          {
-            "title": "Design study · Shared system",
-            "text": "Use the product above and useful information below. A print piece may echo the lower edge, but must not suggest a working button or payment service."
-          }
-        ],
-        "id": "brand-page-30",
-        "layout": "divider"
-      },
-      {
-        "title": "Social media icons",
-        "summary": "Design study: use the unchanged wave SVG on a Merengue avatar field. Allow generous circular-crop clearance and omit tiny lettering, product art and decorative borders.",
-        "examples": [
-          {
-            "title": "Masa Dulce",
-            "text": "Tortas para compartir y postres para recoger."
-          },
-          {
-            "title": "Design study · Avatar",
-            "text": "Center a 64 px symbol canvas within a 96 px Merengue field. Keep both waves intact in square and circular previews."
-          }
-        ],
-        "id": "brand-page-31",
-        "layout": "logo"
-      },
-      {
-        "title": "Social media profiles",
-        "summary": "Design study: pair the wave avatar with the exact name and a brief descriptive bio. Do not invent a handle, contact channel, verified badge, address or audience count.",
-        "examples": [
-          {
-            "title": "Masa Dulce",
-            "text": "Pastelería ficticia en Cali. Tortas y postres de demostración para recoger."
-          },
-          {
-            "title": "Design study · Profile header",
-            "text": "Set the name first, description second and catalog reference last. Use the frontal frame in the banner without repeating the full homepage hero."
-          }
-        ],
-        "id": "brand-page-32",
-        "layout": "applications"
-      },
-      {
-        "title": "Instagram posts",
-        "summary": "Design study: show one canonical product per post, with a short heading above and presentation below. Keep price examples secondary and direct readers to current catalog availability.",
-        "examples": [
-          {
-            "title": "Chocolate para compartir",
-            "text": "Torta de chocolate · Entera, 8 porciones orientativas · Precio de ejemplo: $68.000 COP. Consulta la disponibilidad en el catálogo."
-          },
-          {
-            "title": "Un postre individual",
-            "text": "Cheesecake de maracuyá · Individual · Precio de ejemplo: $14.000 COP."
-          },
-          {
-            "title": "Design study · Post layout",
-            "text": "Use a Merengue field, Mora lower edge and one complete tray. Keep captions clear of the product silhouette."
-          }
-        ],
-        "id": "brand-page-33",
-        "layout": "applications"
-      },
-      {
-        "title": "Posters",
-        "summary": "Design study: use one large headline, one product drawing and one lower information band. Let the wordmark identify the poster without adding fabricated store details or scannable destinations.",
-        "examples": [
-          {
-            "title": "Tortas para compartir",
-            "text": "Chocolate o vainilla con frutos rojos. Consulta presentaciones y disponibilidad en el catálogo."
-          },
-          {
-            "title": "Design study · Poster hierarchy",
-            "text": "Place the heading above the display. Give the complete cake most of the central plane and use the lower edge for the catalog invitation."
-          }
-        ],
-        "id": "brand-page-34",
-        "layout": "applications"
-      },
-      {
-        "title": "T shirts and totes",
-        "summary": "Design study: favor a single Mora signature on a Merengue-colored field. Use a support patch on dark fabric and keep the mark away from seams, folds and handles.",
-        "examples": [
-          {
-            "title": "Algo para compartir",
-            "text": "Masa Dulce"
-          },
-          {
-            "title": "Design study · Tote",
-            "text": "Center the waves above the name with a full safezone. Keep the reverse plain rather than adding prices, a menu or an invented address."
-          }
-        ],
-        "id": "brand-page-35",
-        "layout": "applications"
-      },
-      {
-        "title": "Takeaway packaging",
-        "summary": "Design study: keep the lid calm, with the identity above a frontal-edge label. State product and presentation in text; do not invent materials, food certifications or storage instructions.",
-        "examples": [
-          {
-            "title": "Torta de vainilla y frutos rojos",
-            "text": "Entera, 8 porciones orientativas · Masa Dulce"
-          },
-          {
-            "title": "Design study · Individual sleeve",
-            "text": "Use “Brownie de cacao · Individual” on a Merengue label with Mora type. Keep the complete wave symbol clear of the opening fold."
-          }
-        ],
-        "id": "brand-page-36",
-        "layout": "applications"
-      },
-      {
-        "title": "Pickup location",
-        "summary": "Design study: organize pickup guidance around the selected day and hour. Cali is fictional project context; show no street address, map, storefront photograph or invented collection procedure.",
-        "examples": [
-          {
-            "title": "Recogida en tienda",
-            "text": "Política de ejemplo: todos los días, de 10:00 a 18:00. Elige una fecha y una franja disponible."
-          },
-          {
-            "title": "Design study · Pickup guidance",
-            "text": "Explain today through 30 days ahead, at least one hour's notice and Bogotá time. Display hourly options through 18:00, the last pickup."
-          }
-        ],
-        "id": "brand-page-37",
-        "layout": "applications"
-      },
-      {
-        "title": "Ordering controls",
-        "summary": "Design study for /pedido: distinguish editing, review and registration. Keep visible labels, 44 px targets and errors in flow. Revisar pedido remains actionable to expose linked field errors.",
-        "examples": [
-          {
-            "title": "Revisar pedido",
-            "text": "Revisa los productos, la fecha, la franja y tus datos. Este paso no registra el pedido ni reserva un cupo."
-          },
-          {
-            "title": "Design study · Continuous form",
-            "text": "Place quantities, total and Revisar first; date/slot, name, celular and note follow. Allow 1–99 per product, 198 combined; invalid quantities hide the total."
-          },
-          {
-            "title": "Design study · Explicit choices",
-            "text": "Show “Completa” for a full six-order slot. Preserve conflicting selections; offer another time explicitly. Review replaces editing with Registrar pedido."
-          }
-        ],
-        "id": "brand-page-38",
-        "layout": "applications"
-      },
-      {
-        "title": "Order receipt",
-        "summary": "Design study for /pedido/confirmacion: show only an authorized saved result. Put status, frozen specification and pickup in one lower edge; place version references and return links afterward.",
-        "examples": [
-          {
-            "title": "Pedido de demostración registrado",
-            "text": "Estado: Recibido. Este registro no supone pago ni entrega garantizada."
-          },
-          {
-            "title": "Design study · Frozen specification",
-            "text": "Torta de chocolate · Cantidad: 1 · Unitario: $68.000 · Subtotal: $68.000 · Total: $68.000 COP. Show the saved pickup alongside, not a second summary."
-          },
-          {
-            "title": "Design study · Private reading",
-            "text": "Use /pedido/confirmacion?id=… with a non-secret identifier; the session grants access. Reload reads the saved order and current status, never a fabricated receipt."
-          }
-        ],
-        "id": "brand-page-39",
-        "layout": "applications"
-      },
-      {
-        "title": "Return-visit card",
-        "summary": "Design study: replace a rewards card with a simple catalog reminder. Preserve the compact card format without points, stamps, membership tiers, discounts or an implied loyalty program.",
-        "examples": [
-          {
-            "title": "¿Algo para otra ocasión?",
-            "text": "Vuelve al catálogo para consultar las tortas y los postres disponibles."
-          },
-          {
-            "title": "Design study · Reminder card",
-            "text": "Use the wave symbol on one side and the short invitation on the other. Leave out redemption fields, reward counters and promotional codes."
-          }
-        ],
-        "id": "brand-page-40",
-        "layout": "applications"
-      },
-      {
-        "title": "Bakery sign",
-        "summary": "Design study: treat signage as typographic identification, not evidence of a real shop. Use the primary signature at generous scale with a quiet descriptor and no invented opening claims.",
-        "examples": [
-          {
-            "title": "Masa Dulce",
-            "text": "Tortas y postres"
-          },
-          {
-            "title": "Design study · Sign face",
-            "text": "Use Mora lettering on Merengue. Keep the waves separate from the sign edge and omit street numbers, contact details and decorative cake photographs."
-          }
-        ],
-        "id": "brand-page-41",
-        "layout": "applications"
-      },
-      {
-        "title": "Ordering website",
-        "summary": "Design study: keep Inicio, Catálogo and Hacer pedido stable across public routes. This is a database-backed plan: availability, drafts, orders and owner changes must not be presented as locally simulated success.",
-        "examples": [
-          {
-            "title": "Encuentra tu próximo postre",
-            "text": "Explora el catálogo, elige los productos y revisa la recogida antes de registrar."
-          },
-          {
-            "title": "Design study · Public routes",
-            "text": "/ leads with chocolate; /catalogo filters Tortas, Postres and availability. Unknown references block Encargar until explicit selection; paused products stay recognizable."
-          },
-          {
-            "title": "Design study · Private routes",
-            "text": "/duena/acceso leads to /duena: today's Bogotá agenda and Productos. Use Recibido → En preparación → Listo → Entregado, plus Pausar/Reactivar and Cerrar sesión."
-          }
-        ],
-        "id": "brand-page-42",
-        "layout": "applications"
-      },
-      {
-        "title": "Favicon",
-        "summary": "Design study: reuse the exact original wave geometry for the favicon, app/icon.svg and declared application icon. Use a Merengue support field, with no letters or replacement small-size mark.",
-        "examples": [
-          {
-            "title": "Masa Dulce — Tortas y postres para recoger",
-            "text": "Consulta el catálogo y prepara tu pedido de demostración."
-          },
-          {
-            "title": "Design study · Browser identity",
-            "text": "Keep both Mora waves visible within the square. Preserve the same silhouette at 16, 32 and 48 px; never crop the lower wave."
-          }
-        ],
-        "id": "brand-page-43",
-        "layout": "logo"
-      },
-      {
-        "title": "Stationery",
-        "summary": "Design study: place a modest signature at the top and use Source Sans 3 for the document body. Echo the display with one bottom rule, not a full product scene.",
-        "examples": [
-          {
-            "title": "Detalle del encargo",
-            "text": "Productos, cantidades y recogida en una sola lectura."
-          },
-          {
-            "title": "Design study · Document sheet",
-            "text": "Use Merengue paper color, Cacao body text and Mora headings. Keep notes separate from item rows; omit invented legal, tax and contact information."
-          }
-        ],
-        "id": "brand-page-44",
-        "layout": "applications"
-      },
-      {
-        "title": "Business cards",
-        "summary": "Design study: use a brand introduction card without fabricated people or contact details. Put identity on the front and a concise description on the reverse, preserving generous safezones.",
-        "examples": [
-          {
-            "title": "Masa Dulce",
-            "text": "Tortas para compartir y postres para recoger. Proyecto ficticio en Cali."
-          },
-          {
-            "title": "Design study · Two-sided card",
-            "text": "Front: Mora waves and name on Merengue. Reverse: Cacao description with one Mora lower rule. Do not add a phone number, handle or QR code."
-          }
-        ],
-        "id": "brand-page-45",
-        "layout": "applications"
-      },
-      {
-        "title": "Gift note",
-        "summary": "Design study: reinterpret the gift-card format as a personal enclosure, not stored value. Use a small wave signature and open writing space; add no balance, redemption code or purchasing action.",
-        "examples": [
-          {
-            "title": "Para compartir contigo",
-            "text": "De: __________  Para: __________"
-          },
-          {
-            "title": "Design study · Enclosure",
-            "text": "Set the greeting in Bricolage Grotesque 700 and writing labels in Source Sans 3. Keep the center clear and the Mora edge shallow."
-          }
-        ],
-        "id": "brand-page-46",
-        "layout": "applications"
-      },
-      {
-        "title": "Packaging seal",
-        "summary": "Design study: center the unchanged waves on a Merengue seal and place the name separately when space allows. Treat the seal as identification, never as proof of hygiene or tamper resistance.",
-        "examples": [
-          {
-            "title": "Masa Dulce",
-            "text": "Algo para compartir"
-          },
-          {
-            "title": "Design study · Seal placement",
-            "text": "Keep the complete symbol on one flat area, away from folds. If the seal is too small for the phrase, omit the phrase rather than shrinking it into illegibility."
-          }
-        ],
-        "id": "brand-page-47",
-        "layout": "applications"
-      },
-      {
-        "title": "Customer support",
-        "summary": "Design study: provide recovery beside the affected action, not through invented chat or contact services. Distinguish invalid input, conflicts, blocked access and uncertain registration without exposing private data.",
-        "examples": [
-          {
-            "title": "No pudimos confirmar el resultado",
-            "text": "Tu pedido pudo quedar registrado. Usa Recuperar para consultar la misma operación antes de editar o iniciar otro pedido."
-          },
-          {
-            "title": "Revisa tu celular",
-            "text": "Escribe exactamente diez dígitos, empezando por 3. Conservaremos los demás datos mientras corriges este campo."
-          },
-          {
-            "title": "Design study · Blocked states",
-            "text": "If storage or session access fails, keep visible input and offer recovery; never claim it is saved. If owner access is unconfigured, show unavailability, not a sample code."
-          }
-        ],
-        "id": "brand-page-48",
-        "layout": "applications"
-      },
-      {
-        "title": "Thank you",
-        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
-        "examples": [
-          {
-            "title": "Gracias por darle forma a Masa Dulce",
-            "text": "Keep the name exact, the display clear and every action honest."
-          },
-          {
-            "title": "Sources and credits",
-            "text": "Sources are the supplied fictional project plan, catalog, policy, palette and Bricolage Grotesque and Source Sans 3 files. No public-identity sources were requested."
-          },
-          {
-            "title": "Colophon",
-            "text": "The proposed two-wave symbol is original; product direction is code-drawn. Layouts are design studies. No real premises, photography, memberships or service guarantees are claimed."
-          }
-        ],
-        "id": "brand-page-49",
-        "layout": "cover"
-      }
-    ]
-  }
+    "positioning": "Identidad original propuesta para una pastelería ficticia en Cali: tortas para compartir y postres para recoger, con elección clara, precios de ejemplo y registro verificable de encargos de demostración. No representa una identidad comercial oficial ni un establecimiento documentado.",
+    "researchStatus": "not_requested",
+    "tokenSemanticsVersion": 1
+  },
+  "textColor": "#352724",
+  "accentColor": "#492044",
+  "fontHeading": "Bricolage Grotesque",
+  "borderRadius": "0.5rem",
+  "logoImageUrl": null,
+  "primaryColor": "#492044",
+  "secondaryColor": "#D9E4B5",
+  "backgroundColor": "#FFF9FD"
 }
