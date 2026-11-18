@@ -129,6 +129,14 @@ Declare the correct mode in PRODUCT.md for the page being built:
 5. Commands inherit existing tokens and components — they do not overwrite. Keep DESIGN.md current.
 
 
+## Ready-made foundation (reuse, do not rewrite)
+
+- `src/lib/db.ts` — Turso/libSQL client (`db`), server only.
+- `src/lib/schema.ts` — `ensureSchema()`: replace the example table with the business tables (CREATE TABLE IF NOT EXISTS) and call it at the start of every route handler or server action that touches the database.
+- `src/lib/owner-access.ts` — owner sign-in with the platform-provisioned `OWNER_ACCESS_CODE`: `ownerCodeMatches`, signed HttpOnly session cookie, `isOwner()` for server components and `requireOwner()` for route handlers (returns a 401 Response or null). There is no sign-up and no seeded owner.
+- `src/app/api/owner/session/route.ts` — `POST {code}` signs in, `GET` returns `{owner}`, `DELETE` signs out. Build only the owner sign-in screen and the private pages on top of it.
+- `src/components/ui/*` — installed shadcn/ui components.
+
 ## Generated-site build requirements
 
 The existing build requirements from the Constructor template are preserved below.
